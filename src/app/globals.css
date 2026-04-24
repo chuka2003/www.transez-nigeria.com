@@ -353,6 +353,7 @@ h3 {
 
 .hero-panel-card,
 .feature-card,
+.project-card,
 .product-card,
 .value-card,
 .team-card,
@@ -394,11 +395,13 @@ h3 {
 }
 
 .feature-card,
+.project-card,
 .product-card {
   overflow: hidden;
 }
 
 .feature-card > img,
+.project-card > img,
 .product-card > img {
   width: 100%;
   aspect-ratio: 16 / 10;
@@ -406,6 +409,7 @@ h3 {
 }
 
 .feature-card-body,
+.project-card > div,
 .product-card > div,
 .value-card,
 .team-card,
@@ -440,6 +444,25 @@ h3 {
   background:
     linear-gradient(180deg, rgba(9, 21, 34, 0.03), rgba(9, 21, 34, 0.08)),
     #f6f8fa;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card > div {
+  flex: 1;
+}
+
+.section-link {
+  margin-top: 2rem;
 }
 
 .logo-grid {
@@ -558,7 +581,8 @@ h3 {
 
 @media (max-width: 1100px) {
   .three-up,
-  .news-grid {
+  .news-grid,
+  .project-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -678,7 +702,8 @@ h3 {
 
   .two-up,
   .three-up,
-  .news-grid {
+  .news-grid,
+  .project-grid {
     grid-template-columns: 1fr;
   }
 
@@ -790,6 +815,7 @@ h3 {
 
   .hero-panel-card,
   .feature-card-body,
+  .project-card > div,
   .product-card > div,
   .value-card,
   .team-card,
@@ -805,6 +831,7 @@ h3 {
   }
 
   .feature-card > img,
+  .project-card > img,
   .product-card > img {
     aspect-ratio: 4 / 3;
   }

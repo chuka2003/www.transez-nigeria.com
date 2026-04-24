@@ -1,5 +1,6 @@
 import Link from "next/link";
 import ClientGrid from "@/components/ClientGrid";
+import ProjectGallery from "@/components/ProjectGallery";
 import SectionIntro from "@/components/SectionIntro";
 import {
   aboutStory,
@@ -22,8 +23,8 @@ export default function HomePage() {
       <section className="home-hero">
         <div className="home-hero-media">
           <img
-            src="/assets/gallery/freedom-park.png"
-            alt="Large-scale facility development supported by engineering infrastructure"
+            src="/assets/projects/field-engineering-works.jpg"
+            alt="Transez field engineer working inside a facility equipment room"
           />
         </div>
         <div className="shell home-hero-grid">
@@ -128,6 +129,22 @@ export default function HomePage() {
       </section>
 
       <section className="section trust-section">
+        <div className="shell">
+          <SectionIntro
+            eyebrow="Project photos"
+            title="Field work from electromechanical, EPC, power, and facility engineering assignments"
+            text="A selection of real project images from Transez's archive, showing site coordination, equipment rooms, water systems, and power infrastructure support."
+          />
+          <ProjectGallery limit={6} />
+          <div className="section-link">
+            <Link href="/projects/" className="button button-primary">
+              View project photos
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-light">
         <div className="shell">
           <SectionIntro
             eyebrow="Clients"

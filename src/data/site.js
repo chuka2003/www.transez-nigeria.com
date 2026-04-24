@@ -45,6 +45,7 @@ export const navigation = [
       { label: "Su-Kam", href: "/products/su-kam/" }
     ]
   },
+  { label: "Projects", href: "/projects/" },
   { label: "Careers", href: "/careers/" },
   { label: "News", href: "/news/" },
   { label: "Contact Us", href: "/contact/" }
@@ -146,11 +147,62 @@ export const clients = [
   { name: "Eko Electricity Distribution Company", logo: "/assets/clients/EKEDC.jpg" }
 ];
 
+export const projectPhotos = [
+  {
+    title: "Electrical containment installation",
+    category: "Electromechanical works",
+    image: "/assets/projects/facility-installation-works.jpg",
+    description: "On-site containment and cable-management installation by the Transez field team."
+  },
+  {
+    title: "Equipment room field work",
+    category: "Facility engineering",
+    image: "/assets/projects/field-engineering-works.jpg",
+    description: "Technical installation and equipment-room support for critical facility infrastructure."
+  },
+  {
+    title: "Project site civil coordination",
+    category: "EPC delivery",
+    image: "/assets/projects/project-site-works.jpg",
+    description: "Construction-stage coordination for underground and building-services works."
+  },
+  {
+    title: "Technical site inspection",
+    category: "Project support",
+    image: "/assets/projects/technical-site-inspection.jpg",
+    description: "Field inspection and coordination during project execution."
+  },
+  {
+    title: "Water reticulation works",
+    category: "Plumbing systems",
+    image: "/assets/projects/water-reticulation.jpg",
+    description: "Water reticulation and piping support for facility services."
+  },
+  {
+    title: "Water treatment and reticulation",
+    category: "Water systems",
+    image: "/assets/projects/water-treatment-reticulation.jpg",
+    description: "Water treatment and reticulation infrastructure for commercial facilities."
+  },
+  {
+    title: "Transformer installation support",
+    category: "Power distribution",
+    image: "/assets/projects/transformer-ibadan.jpg",
+    description: "Transformer and power-distribution infrastructure support."
+  },
+  {
+    title: "Solar panel installation",
+    category: "Backup and renewable power",
+    image: "/assets/projects/solar-panel-installation.jpg",
+    description: "Solar power support for resilient facility energy systems."
+  }
+];
+
 export const services = [
   {
     title: "Engineering, Procurement & Construction",
     href: "/services/epc/",
-    image: "/assets/gallery/freedom-park.png",
+    image: "/assets/projects/project-site-works.jpg",
     summary:
       "Integrated mechanical and electrical delivery covering design coordination, installation, commissioning, and project support.",
     bullets: [
@@ -162,7 +214,7 @@ export const services = [
   {
     title: "Electrical Power Quality",
     href: "/services/power-quality/",
-    image: "/assets/gallery/power-distribution.jpg",
+    image: "/assets/products/elspec-g4400.jpg",
     summary:
       "Solutions focused on cleaner, more stable, and more efficient electrical performance across demanding facilities.",
     bullets: [
@@ -174,7 +226,7 @@ export const services = [
   {
     title: "Products & Technology Partners",
     href: "/products/",
-    image: "/assets/products/elspec-g4400.jpg",
+    image: "/assets/projects/transformer-ibadan.jpg",
     summary:
       "Power quality analyzers, mitigation systems, and inverter solutions aligned with commercial and industrial requirements.",
     bullets: [
@@ -196,12 +248,12 @@ export const epcCapabilities = [
     title: "Design & Specifications",
     description:
       "Design support, system feasibility input, and coordination from concept through installation.",
-    image: "/assets/gallery/mechanical-electrical.png"
+    image: "/assets/projects/facility-installation-works.jpg"
   },
   {
     title: "Plumbing Systems",
     description: "Domestic plumbing, drainage, water storage, and associated piping solutions for facilities.",
-    image: "/assets/gallery/plumbing.jpg"
+    image: "/assets/projects/water-reticulation.jpg"
   },
   {
     title: "Fire Protection & Detection",
@@ -211,7 +263,7 @@ export const epcCapabilities = [
   {
     title: "Power Distribution",
     description: "Electrical power generation and distribution support for commercial and industrial infrastructure.",
-    image: "/assets/gallery/power-distribution.jpg"
+    image: "/assets/projects/transformer-ibadan.jpg"
   },
   {
     title: "Security & Control",
@@ -261,7 +313,7 @@ export const epcServicePages = [
     slug: "commercial-plumbing-drainage",
     title: "Commercial Plumbing and Drainage",
     menuLabel: "Commercial Plumbing and Drainage",
-    image: "/assets/gallery/plumbing.jpg",
+    image: "/assets/projects/water-treatment-reticulation.jpg",
     summary:
       "Supply and installation of commercial plumbing works including water storage, drainage, mains supply, sewage, and sanitary systems.",
       content: [
@@ -297,7 +349,7 @@ export const epcServicePages = [
     slug: "electrical-power-distribution",
     title: "Electrical Power Distribution",
     menuLabel: "Electrical Power Distribution",
-    image: "/assets/gallery/power-distribution.jpg",
+    image: "/assets/projects/transformer-ibadan.jpg",
     summary:
       "Turnkey electrical power distribution support from layout and design through installation, hookup, testing, and network maintenance.",
       content: [
