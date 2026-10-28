@@ -4,6 +4,7 @@ export const company = {
   tagline:
     "Electromechanical, power quality, EPC, and facility engineering solutions for industrial and commercial operations across Nigeria.",
   founded: "2026",
+  heritageSince: "1989",
   registrationNumber: "9734675",
   incorporated: "3 August 2026",
   predecessor: "Transez Nigeria Limited",
@@ -56,10 +57,10 @@ export const navigation = [
 
 export const homeHighlights = [
   {
-    eyebrow: "Engineering delivery",
-    title: "From design to commissioning",
+    eyebrow: "Our heritage | 1989",
+    title: "Built on decades of Transez experience",
     description:
-      "Coordinated mechanical and electrical services, procurement, installation, and commissioning for commercial and industrial facilities."
+      "Our story began with Transez Nigeria Limited in 1989, growing from maintenance services into electromechanical engineering, power quality, and project delivery."
   },
   {
     eyebrow: "Power quality",
@@ -76,9 +77,27 @@ export const homeHighlights = [
 ];
 
 export const aboutStory = [
-  "Transez Engineering Ltd provides electromechanical, power quality, EPC, and facility engineering solutions for commercial and industrial clients across Nigeria.",
-  "Following its acquisition of Transez Nigeria Limited, Transez Engineering Ltd is building the next chapter of the Transez business. The predecessor company was incorporated in 1989 and developed from maintenance services into electromechanical engineering, power quality, and project delivery.",
-  "Our focus is practical: understand your operating requirements, coordinate the right engineering solution, and support delivery from design through installation, commissioning, and maintenance."
+  "The Transez story began in 1989, when Transez Nigeria Limited was incorporated to provide maintenance services to business clients. That practical grounding in keeping facilities working shaped the business's approach to engineering: understand the operation, solve the problem, and support the systems that matter.",
+  "By 2005, Transez Nigeria Limited had expanded into electromechanical engineering, power quality, and project management. Its work brought together facility design, installation, commissioning, maintenance, and electrical protection for commercial and industrial environments.",
+  "Transez Engineering Ltd has acquired Transez Nigeria Limited and is carrying the Transez story forward. Our direction builds on that heritage, with a focus on reliable power, coordinated project delivery, and the engineering support clients need to keep their operations moving."
+];
+
+export const heritageMilestones = [
+  {
+    year: "1989",
+    title: "The Transez story begins",
+    description: "Transez Nigeria Limited is incorporated, providing maintenance services to business clients."
+  },
+  {
+    year: "2005",
+    title: "A broader engineering capability",
+    description: "The business expands into electromechanical engineering, power quality, and project management, building on its maintenance foundation."
+  },
+  {
+    year: "2026",
+    title: "The next chapter",
+    description: "Transez Engineering Ltd is incorporated on 3 August 2026, RC 9734675. Its acquisition of Transez Nigeria Limited brings the Transez business into a new chapter."
+  }
 ];
 
 export const values = [

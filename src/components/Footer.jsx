@@ -9,6 +9,7 @@ export default function Footer() {
           <p className="footer-kicker">{company.name}</p>
           <h2>Engineering reliability. Powering progress.</h2>
           <p>{company.tagline}</p>
+          <p>Building on the heritage of Transez Nigeria Limited, established {company.heritageSince}.</p>
           <p>RC {company.registrationNumber} | Incorporated {company.incorporated}</p>
         </div>
 

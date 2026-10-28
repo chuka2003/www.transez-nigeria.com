@@ -29,13 +29,13 @@ export default function HomePage() {
         </div>
         <div className="shell home-hero-grid">
           <div className="home-hero-copy">
-            <p className="eyebrow">Transez Engineering Ltd</p>
+            <p className="eyebrow">Transez Engineering Ltd | A heritage rooted in 1989</p>
             <h1>Engineering reliability. Powering progress.</h1>
             <p>
-              {company.name} delivers electromechanical, power quality, and EPC solutions
-              for commercial and industrial operations across Nigeria. From design to
-              commissioning and maintenance, we help you build, protect, and sustain the
-              systems your business depends on.
+              {company.name} builds on the engineering heritage of Transez Nigeria Limited,
+              established in 1989. We deliver electromechanical, power quality, and EPC
+              solutions for commercial and industrial operations across Nigeria, helping
+              clients build, protect, and sustain the systems their businesses depend on.
             </p>
             <div className="hero-actions">
               <Link href="/contact/" className="button button-primary">
@@ -91,9 +91,9 @@ export default function HomePage() {
         <div className="shell split-layout">
           <div>
             <SectionIntro
-              eyebrow="Who we are"
-              title="The next chapter of Transez"
-              text="Transez Engineering Ltd has acquired Transez Nigeria Limited, opening a new chapter focused on the engineering needs of commercial and industrial clients."
+              eyebrow="Our heritage"
+              title="Decades of engineering experience. A new chapter of progress."
+              text="From Transez Nigeria Limited's beginnings in 1989 to Transez Engineering Ltd today, our story is grounded in the practical demands of keeping businesses powered and facilities working."
             />
           </div>
           <div className="story-stack">
@@ -101,7 +101,7 @@ export default function HomePage() {
               <p key={paragraph}>{paragraph}</p>
             ))}
             <Link href="/about/" className="button button-secondary">
-              About Transez
+              Discover our story
             </Link>
           </div>
         </div>
@@ -150,7 +150,7 @@ export default function HomePage() {
         <div className="shell">
           <SectionIntro
             eyebrow="Clients"
-            title="A history of serving demanding environments"
+            title="A Transez track record across demanding sectors"
             text="Selected client references from Transez Nigeria Limited's engineering and technical support history across finance, telecommunications, and infrastructure."
           />
           <ClientGrid />
