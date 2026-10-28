@@ -96,7 +96,7 @@ export const heritageMilestones = [
   {
     year: "2026",
     title: "The next chapter",
-    description: "Transez Engineering Ltd is incorporated on 3 August 2026, RC 9734675. Its acquisition of Transez Nigeria Limited brings the Transez business into a new chapter."
+    description: "Transez Engineering Ltd is incorporated on 3 August 2026. Its acquisition of Transez Nigeria Limited brings the Transez business into a new chapter."
   }
 ];
 

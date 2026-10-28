@@ -11,13 +11,13 @@ export default function Header() {
     <header className="site-header">
       <div className="shell header-inner">
         <Link href="/" className="brand" onClick={() => setOpen(false)}>
-          <span className="engineering-wordmark" aria-hidden="true">
+          <span className="engineering-wordmark" aria-label={`${company.name}, RC ${company.registrationNumber}`}>
             Transez<span>ENGINEERING LTD</span>
+            <span>RC {company.registrationNumber}</span>
           </span>
           <span className="brand-copy">
             <strong>{company.name}</strong>
             <span>Engineering reliability. Powering progress.</span>
-            <span>RC {company.registrationNumber}</span>
           </span>
         </Link>
 
