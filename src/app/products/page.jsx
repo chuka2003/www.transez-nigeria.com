@@ -4,7 +4,7 @@ import { buildMetadata, products } from "@/data/site";
 
 export const metadata = buildMetadata(
   "Products",
-  "Product partners and power technology offerings highlighted by Transez Nigeria Limited.",
+  "Product partners and power technology offerings highlighted by Transez Engineering Ltd.",
   "/products/"
 );
 

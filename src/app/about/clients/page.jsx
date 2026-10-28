@@ -4,7 +4,7 @@ import { buildMetadata } from "@/data/site";
 
 export const metadata = buildMetadata(
   "Clients",
-  "Client references for Transez Nigeria Limited.",
+  "Client references for Transez Engineering Ltd.",
   "/about/clients/"
 );
 

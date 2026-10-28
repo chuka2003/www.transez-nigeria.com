@@ -4,7 +4,7 @@ import { buildMetadata, values } from "@/data/site";
 
 export const metadata = buildMetadata(
   "Mission, Vision & Values",
-  "Transez Nigeria Limited mission, vision, and guiding principles.",
+  "Transez Engineering Ltd mission, vision, and guiding principles.",
   "/about/mission-vision-values/"
 );
 

@@ -29,15 +29,17 @@ export default function HomePage() {
         </div>
         <div className="shell home-hero-grid">
           <div className="home-hero-copy">
-            <p className="eyebrow">Engineering confidence for critical operations</p>
-            <h1>Electromechanical, power quality, and EPC solutions for critical industrial and commercial operations</h1>
+            <p className="eyebrow">Transez Engineering Ltd</p>
+            <h1>Engineering reliability. Powering progress.</h1>
             <p>
-              {company.name} supports clients across Nigeria with engineering expertise, product
-              support, and project delivery focused on uptime, safety, and energy performance.
+              {company.name} delivers electromechanical, power quality, and EPC solutions
+              for commercial and industrial operations across Nigeria. From design to
+              commissioning and maintenance, we help you build, protect, and sustain the
+              systems your business depends on.
             </p>
             <div className="hero-actions">
               <Link href="/contact/" className="button button-primary">
-                Contact Transez
+                Discuss your project
               </Link>
               <Link href="/services/" className="button button-secondary">
                 Explore services
@@ -61,8 +63,8 @@ export default function HomePage() {
         <div className="shell">
           <SectionIntro
             eyebrow="What we do"
-            title="Engineering services built around operational reliability, technical discipline, and energy performance"
-            text="Transez delivers power quality solutions, electromechanical systems, facility engineering, and project execution for demanding commercial and industrial environments."
+            title="Power, systems, and facilities that work together"
+            text="Bring your mechanical, electrical, and power quality requirements together with coordinated engineering, procurement, installation, and technical support."
           />
 
           <div className="card-grid three-up">
@@ -90,8 +92,8 @@ export default function HomePage() {
           <div>
             <SectionIntro
               eyebrow="Who we are"
-              title="A Nigerian engineering company focused on uptime, protection, and efficient energy use"
-              text="The company has expanded from maintenance support into a broader specialist portfolio covering power quality, facility engineering, and project delivery."
+              title="The next chapter of Transez"
+              text="Transez Engineering Ltd has acquired Transez Nigeria Limited, opening a new chapter focused on the engineering needs of commercial and industrial clients."
             />
           </div>
           <div className="story-stack">
@@ -99,7 +101,7 @@ export default function HomePage() {
               <p key={paragraph}>{paragraph}</p>
             ))}
             <Link href="/about/" className="button button-secondary">
-              Explore company
+              About Transez
             </Link>
           </div>
         </div>
@@ -109,8 +111,8 @@ export default function HomePage() {
         <div className="shell">
           <SectionIntro
             eyebrow="Partners & products"
-            title="Technology partnerships aligned with power quality and resilient backup power"
-            text="Elspec and Su-Kam remain central to the company's product offering in power quality, monitoring, and backup power solutions."
+            title="Understand your power. Protect your operations."
+            text="Explore power quality monitoring, compensation, and backup power technologies, and discuss the right equipment for your operating requirements."
           />
 
           <div className="card-grid two-up">
@@ -132,8 +134,8 @@ export default function HomePage() {
         <div className="shell">
           <SectionIntro
             eyebrow="Project photos"
-            title="Field work from electromechanical, EPC, power, and facility engineering assignments"
-            text="A selection of real project images from Transez's archive, showing site coordination, equipment rooms, water systems, and power infrastructure support."
+            title="Engineering in the field"
+            text="Explore the Transez business's project history through site coordination, equipment rooms, water systems, and power infrastructure work."
           />
           <ProjectGallery limit={6} />
           <div className="section-link">
@@ -148,8 +150,8 @@ export default function HomePage() {
         <div className="shell">
           <SectionIntro
             eyebrow="Clients"
-            title="Client relationships spanning finance, telecoms, infrastructure, and utility-adjacent sectors"
-            text="These logos reflect organizations associated with Transez's engineering and technical support work."
+            title="A history of serving demanding environments"
+            text="Selected client references from Transez Nigeria Limited's engineering and technical support history across finance, telecommunications, and infrastructure."
           />
           <ClientGrid />
         </div>
@@ -158,15 +160,15 @@ export default function HomePage() {
       <section className="section cta-section">
         <div className="shell cta-box">
           <div>
-            <p className="eyebrow">Start a conversation</p>
-            <h2>Discuss power quality, EPC delivery, facility engineering, or product support with Transez</h2>
+            <p className="eyebrow">Your next project</p>
+            <h2>Tell us what your operation needs to achieve</h2>
           </div>
           <div className="cta-actions">
             <Link href="/contact/" className="button button-primary">
-              Contact Transez
+              Discuss your project
             </Link>
             <Link href="/about/team/" className="button button-secondary">
-              Explore team
+              Meet our team
             </Link>
           </div>
         </div>

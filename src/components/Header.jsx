@@ -1,9 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { navigation } from "@/data/site";
+import { company, navigation } from "@/data/site";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -12,19 +11,13 @@ export default function Header() {
     <header className="site-header">
       <div className="shell header-inner">
         <Link href="/" className="brand" onClick={() => setOpen(false)}>
-          <span className="brand-mark">
-            <Image
-              src="/assets/brand/logo.png"
-              alt="Transez Nigeria Limited logo"
-              width={140}
-              height={58}
-              className="brand-logo"
-              priority
-            />
+          <span className="engineering-wordmark" aria-hidden="true">
+            Transez<span>ENGINEERING LTD</span>
           </span>
           <span className="brand-copy">
-            <strong>Transez Nigeria Limited</strong>
-            <span>Electromechanical &amp; Facility Engineering</span>
+            <strong>{company.name}</strong>
+            <span>Engineering reliability. Powering progress.</span>
+            <span>RC {company.registrationNumber}</span>
           </span>
         </Link>
 

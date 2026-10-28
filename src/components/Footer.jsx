@@ -6,9 +6,10 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="shell footer-grid">
         <div>
-          <p className="footer-kicker">Transez Nigeria Limited</p>
-          <h2>Engineering solutions built around uptime, safety, and operational confidence.</h2>
+          <p className="footer-kicker">{company.name}</p>
+          <h2>Engineering reliability. Powering progress.</h2>
           <p>{company.tagline}</p>
+          <p>RC {company.registrationNumber} | Incorporated {company.incorporated}</p>
         </div>
 
         <div>

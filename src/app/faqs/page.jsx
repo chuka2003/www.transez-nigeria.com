@@ -3,7 +3,7 @@ import { buildMetadata, faqItems } from "@/data/site";
 
 export const metadata = buildMetadata(
   "FAQs",
-  "Frequently asked questions about Transez Nigeria Limited services and contact details.",
+  "Frequently asked questions about Transez Engineering Ltd services and contact details.",
   "/faqs/"
 );
 

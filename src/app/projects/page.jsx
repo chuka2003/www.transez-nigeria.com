@@ -5,7 +5,7 @@ import { buildMetadata } from "@/data/site";
 
 export const metadata = buildMetadata(
   "Project Photos",
-  "Project photos from Transez Nigeria Limited electromechanical, EPC, power, and facility engineering assignments.",
+  "Project photos from Transez Engineering Ltd electromechanical, EPC, power, and facility engineering assignments.",
   "/projects/"
 );
 

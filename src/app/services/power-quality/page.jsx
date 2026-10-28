@@ -3,7 +3,7 @@ import { buildMetadata, powerQualitySolutions } from "@/data/site";
 
 export const metadata = buildMetadata(
   "Electrical Power Quality",
-  "Power quality services from Transez Nigeria Limited including harmonics filtration, voltage control, and surge protection.",
+  "Power quality services from Transez Engineering Ltd including harmonics filtration, voltage control, and surge protection.",
   "/services/power-quality/"
 );
 

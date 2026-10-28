@@ -3,7 +3,7 @@ import { buildMetadata, elspecProducts } from "@/data/site";
 
 export const metadata = buildMetadata(
   "Elspec",
-  "Elspec power quality technologies presented by Transez Nigeria Limited.",
+  "Elspec power quality technologies presented by Transez Engineering Ltd.",
   "/products/elspec/"
 );
 

@@ -4,7 +4,7 @@ import { aboutStory, buildMetadata } from "@/data/site";
 
 export const metadata = buildMetadata(
   "About Transez",
-  "Background, evolution, and present-day positioning of Transez Nigeria Limited.",
+  "Meet Transez Engineering Ltd, RC 9734675: electromechanical, power quality, EPC, and facility engineering in Nigeria.",
   "/about/"
 );
 
@@ -13,16 +13,17 @@ export default function AboutPage() {
     <>
       <PageHero
         eyebrow="About Transez"
-        title="Built in Nigeria and shaped by decades of engineering and technical delivery"
-        description="Learn how Transez evolved from maintenance support into a broader electromechanical, power quality, and project delivery company."
+        title="A new chapter for Transez engineering"
+        description="Transez Engineering Ltd brings a clear focus to commercial and industrial engineering: reliable systems, coordinated delivery, and responsive technical support."
         image="/assets/gallery/engineering-team.jpg"
       />
 
       <section className="section section-light">
         <div className="shell narrow-flow">
           <SectionIntro
-            eyebrow="Background"
-            title="From maintenance vendor to electromechanical and power quality specialist"
+            eyebrow="Our company"
+            title="Engineering for the way your business operates"
+            text="Incorporated on 3 August 2026 as Transez Engineering Ltd, RC 9734675, we are focused on the power and facility systems that support our clients' operations."
           />
           {aboutStory.map((paragraph) => (
             <p key={paragraph}>{paragraph}</p>

@@ -3,7 +3,7 @@ import { buildMetadata, company } from "@/data/site";
 
 export const metadata = buildMetadata(
   "Contact Us",
-  "Contact details for Transez Nigeria Limited in Lagos, Nigeria.",
+  "Contact details for Transez Engineering Ltd in Lagos, Nigeria.",
   "/contact/"
 );
 

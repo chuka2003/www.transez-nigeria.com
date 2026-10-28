@@ -4,7 +4,7 @@ import { buildMetadata, newsPosts } from "@/data/site";
 
 export const metadata = buildMetadata(
   "News",
-  "News and company updates from Transez Nigeria Limited.",
+  "News and company updates from Transez Engineering Ltd.",
   "/news/"
 );
 

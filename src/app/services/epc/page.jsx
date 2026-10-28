@@ -5,7 +5,7 @@ import { buildMetadata, epcServicePages } from "@/data/site";
 
 export const metadata = buildMetadata(
   "Engineering, Procurement & Construction",
-  "Integrated mechanical and electrical EPC capabilities from Transez Nigeria Limited.",
+  "Integrated mechanical and electrical EPC capabilities from Transez Engineering Ltd.",
   "/services/epc/"
 );
 

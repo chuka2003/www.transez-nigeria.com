@@ -3,7 +3,7 @@ import { buildMetadata, sukamProducts } from "@/data/site";
 
 export const metadata = buildMetadata(
   "Su-Kam",
-  "Su-Kam inverter solutions presented by Transez Nigeria Limited.",
+  "Su-Kam inverter solutions presented by Transez Engineering Ltd.",
   "/products/su-kam/"
 );
 

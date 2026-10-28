@@ -869,3 +869,31 @@ h3 {
     font-size: 1.05rem;
   }
 }
+
+/* The current wordmark replaces the image containing the predecessor's RC number. */
+.engineering-wordmark {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  gap: 0.3rem;
+  padding-left: 0.9rem;
+  border-left: 4px solid var(--accent);
+  color: var(--text);
+  font-family: Bahnschrift, "Arial Narrow", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+.engineering-wordmark span {
+  font-family: Aptos, "Segoe UI", sans-serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.19em;
+}
+
+@media (max-width: 600px) {
+  .engineering-wordmark { font-size: 2rem; }
+  .brand-copy { display: none; }
+}

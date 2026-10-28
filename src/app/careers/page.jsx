@@ -3,7 +3,7 @@ import { buildMetadata, careers, company } from "@/data/site";
 
 export const metadata = buildMetadata(
   "Careers",
-  "Career information for Transez Nigeria Limited.",
+  "Career information for Transez Engineering Ltd.",
   "/careers/"
 );
 

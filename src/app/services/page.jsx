@@ -4,7 +4,7 @@ import { buildMetadata, services } from "@/data/site";
 
 export const metadata = buildMetadata(
   "Service Offerings",
-  "Service overview for Transez Nigeria Limited covering EPC and electrical power quality solutions.",
+  "Service overview for Transez Engineering Ltd covering EPC and electrical power quality solutions.",
   "/services/"
 );
 
